@@ -30,6 +30,7 @@ class myclass:
             print(exc_type)
             print(exc_value)
             print(exc_traceback)
+        return True
 
     def __del__(self) -> None:
         '''
